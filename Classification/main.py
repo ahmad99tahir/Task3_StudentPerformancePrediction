@@ -7,7 +7,7 @@ import joblib
 
 def main():
     # Load and preprocess data
-    data = pd.read_csv('dataset/student.csv')
+    data = pd.read_csv('Classification/dataset/student.csv')
     X_train, X_test, y_train, y_test, X_train_smote, y_train_smote, X_train_rus, y_train_rus = preprocess_data(data)
 
     alpha = 0.1747

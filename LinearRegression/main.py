@@ -4,7 +4,7 @@ from src.evaluate import visualize_model,visualize_cost, evaluate_model
 from sklearn.model_selection import train_test_split
 
 def main():
-    filepath = 'dataset/student.csv'
+    filepath = 'LinearRegression/dataset/student.csv'
     df = load_dataset(filepath)
     df.head()
 
